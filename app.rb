@@ -6,4 +6,6 @@ class App < Sinatra::Base
     "I am so beautiful "
   end
 
+  get '/info' do
+    "Sinatra si cool"
 end
